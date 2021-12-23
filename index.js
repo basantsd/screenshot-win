@@ -7,7 +7,7 @@
 
 async function ss(filename, fformat) {
   return new Promise((resolve, reject) => {
-    const dfname = filename || __dirname + "/" + Date.now();
+    const dfname = filename || process.cwd() + "/" + Date.now();
     const dformat = fformat || "jpg";
 
     if (process.platform === "darwin") {

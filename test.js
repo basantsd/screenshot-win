@@ -1,5 +1,5 @@
-const getPlaceDetails = require("./index");
+const screenshot_win = require("./index");
 
-getPlaceDetails().then((data) => {
+screenshot_win().then((data) => {
   console.log(data);
 });

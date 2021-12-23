@@ -3,7 +3,7 @@
 > Capture a screenshot of your local machine
 
 * Multi/Cross Platform
-  * Linux: No dependencies required!
+  * Linux: Comming soon!
   * OSX: No dependencies required!
   * Windows: No dependencies required!
 * Promise based API
@@ -16,7 +16,7 @@
 ```
 const screenshot_win = require('screenshot-win')
 
-getPlaceDetails().then((data) => {
+screenshot_win().then((data) => {
    console.log(data); 
 });
 ```
@@ -24,7 +24,7 @@ WITH Parameters
 ```
 const screenshot_win = require('screenshot-win')
 
-getPlaceDetails("yourpath/filename","format").then((data) => {
+screenshot_win("yourpath/filename","format").then((data) => {
    console.log(data); 
 });
 ```
